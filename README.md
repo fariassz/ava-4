@@ -1,1 +1,1 @@
-# ava-4
+Recebi um trabalho, onde me pediram para fazer em TypeScript, html, scss e usar FireBase como DB, foi solicitado um programa onde eu conseguisse (LISTAR) nome e email, conseguisse (EDITAR) e (EXCLUIR).
