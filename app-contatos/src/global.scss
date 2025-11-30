@@ -1,0 +1,102 @@
+/* Importações básicas do Ionic */
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/* --- ESTILOS SIMPLES E MODERNOS --- */
+
+/* Fundo Geral */
+ion-content {
+  --background: #2c2f36; /* Azul bem escuro */
+  --color: #f1f5f9;      /* Texto claro */
+}
+
+/* Toolbar */
+ion-toolbar {
+  --background: #1e293b;
+  --color: #ffffff;
+}
+
+ion-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Cards */
+.custom-card {
+  background: #5f6063;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212425;
+}
+
+/* Inputs */
+ion-item {
+  --background: #1e293b;
+  --border-radius: 10px;
+  --padding-start: 12px;
+  margin-bottom: 10px;
+}
+
+ion-label {
+  color: #94a3b8 !important;
+}
+
+ion-input {
+  --color: #fff;
+}
+
+/* Botão primário */
+ion-button.primary-btn {
+  --background: #3b82f6;
+  --border-radius: 10px;
+  font-weight: 600;
+  height: 45px;
+}
+
+/* Botão secundário */
+ion-button.secondary-btn {
+  --background: #334155;
+  --border-radius: 8px;
+  --color: #f1f5f9;
+}
+
+/* Lista */
+.list-item {
+  --background: #1e293b;
+  --border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.list-item h3 {
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.list-item p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* Botão de deletar */
+ion-button.danger-btn {
+  --background: #b91c1c;
+  --border-radius: 10px;
+  font-weight: 600;
+}
